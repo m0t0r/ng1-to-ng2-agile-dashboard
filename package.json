@@ -1,0 +1,37 @@
+{
+  "name": "ng1-to-ng2-agile-dashboard",
+  "version": "0.0.1",
+  "description": "An Angular application which shows how to upgrade ng1 based app to the new ng2 base",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m0t0r/ng1-to-ng2-agile-dashboard.git"
+  },
+  "keywords": [
+    "app",
+    "angular1",
+    "angular2",
+    "ng-forward",
+    "ng-upgrade",
+    "ng1",
+    "ng2"
+  ],
+  "author": "Vitaly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m0t0r/ng1-to-ng2-agile-dashboard/issues"
+  },
+  "homepage": "https://github.com/m0t0r/ng1-to-ng2-agile-dashboard#readme",
+  "dependencies": {
+    "angular": "^1.4.7",
+    "angular-material": "^0.11.4",
+    "angular-ui-router": "^0.2.15"
+  },
+  "devDependencies": {
+    "babel-loader": "^5.3.2",
+    "webpack": "^1.12.2"
+  }
+}
