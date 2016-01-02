@@ -4,7 +4,8 @@
   "description": "An Angular application which shows how to upgrade ng1 based app to the new ng2 base",
   "main": "bundle.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --colors"
+    "start": "webpack-dev-server --inline --colors",
+    "test": "karma start"
   },
   "repository": {
     "type": "git",
@@ -34,7 +35,10 @@
     "jquery": "2.1.4"
   },
   "devDependencies": {
+    "angular-mocks": "1.5.0-rc.0",
+    "babel-core": "6.3.26",
     "babel-loader": "6.2.0",
+    "babel-preset-es2015": "6.3.13",
     "browser-sync": "2.9.11",
     "css-loader": "0.23.0",
     "del": "2.0.2",
@@ -50,7 +54,15 @@
     "gulp-watch": "4.3.5",
     "jade": "1.11.0",
     "jade-loader": "0.8.0",
+    "jasmine-core": "2.4.1",
+    "karma": "0.13.16",
+    "karma-jasmine": "0.3.6",
+    "karma-phantomjs-launcher": "0.2.2",
+    "karma-sourcemap-loader": "0.3.6",
+    "karma-webpack": "1.7.0",
+    "ng-annotate-loader": "0.0.10",
     "node-sass": "3.4.2",
+    "phantomjs": "1.9.19",
     "run-sequence": "1.1.4",
     "sass-loader": "3.1.2",
     "style-loader": "0.13.0",

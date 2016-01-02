@@ -1,2 +1,5 @@
-require('./assets/styles.scss');
-console.log('app.js');
+import angular from 'angular';
+import Components from './components';
+
+angular
+  .module('app', [Components.name]);
